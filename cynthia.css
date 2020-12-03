@@ -110,5 +110,10 @@ img {
 		margin: auto;
 		background-color: #D8E7FF;
 	}
+	
+	img {
+		float: center;
+		max-width: 100px;
+		margin: 1em;
   
 }
