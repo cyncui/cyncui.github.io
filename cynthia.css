@@ -90,38 +90,57 @@ img {
 	margin:2.1em;
 }
 
-.grid-container {
-	display: grid;
-	grid-gap: 0.5em;
-}
 
 .intro {
 	font-size: 0.7em;
 }
 
-@media screen and (max-width: 350px) {
-	body {
-		font-size: 0.6em;
+@media screen and (min-width: 1280px) {
+}
+
+@media only screen and (max-width:990px){
+}  
+
+@media only screen and (max-width:768px){
+	p {
+		font-family: 'Roboto Mono', monospace;
+		font-size: 0.7em;
+		letter-spacing: 0.02em;
+		font-weight: 300;
+		line-height: 1.5em;
+		color: #000000;
+		margin: 1.5em;
+		text-align:justify;
 	}
-  
+	
 	.blue-container {
 		width: 100%;
-		height: 100%;
-		margin: none;
+		height: 50%;
+		margin: auto;
+		margin-top: 3%;
 		background-color: #D8E7FF;
+	}
+	
+	li a, li {
+		display: block;
+		margin-bottom: 1em;
+		padding: 0.5em;
 	}
 	
 	img {
 		float: center;
-		max-width: 100px;
+		max-width: 80%;
 		margin: 1em;
 	}
 	
-	li a {
-		display:block;
-	}
 	
-	li {
-		display:block;
-	}
-}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
