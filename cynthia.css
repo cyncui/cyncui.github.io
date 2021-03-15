@@ -130,48 +130,6 @@ label.tab {
 
 /* don't change anything from here on please, go straight to the html part by doing the following ctrl + f html begins here */
 
-iframe.tmblr-iframe {
-    z-index:25!important;
-    top:19px!important;
-    right:17.5px!important;
-    opacity:0;
-    padding-right:38px;
-    /* delete invert(1) from here */
-    filter:invert(1) contrast(150%);
-    -webkit-filter:invert(1) contrast(150%);
-    -o-filter:invert(1) contrast(150%);
-    -moz-filter:invert(1) contrast(150%);
-    -ms-filter:invert(1) contrast(150%);
-    /* to here if your blog has a dark background */
-    transform:scale(0.65);
-    transform-origin:100% 0;
-    -webkit-transform:scale(0.65);
-    -webkit-transform-origin:100% 0;
-    -o-transform:scale(0.65);
-    -o-transform-origin:100% 0;
-    -moz-transform:scale(0.65);
-    -moz-transform-origin:100% 0;
-    -ms-transform:scale(0.65);
-    -ms-transform-origin:100% 0;
-}
-
-iframe.tmblr-iframe:hover {
-    opacity:0.6!important;
-}
-
-.hcontrols {
-    position:fixed;
-    top:21px!important;
-    right:17.5px!important;
-    z-index:25;
-}
-
-.hcontrols svg {
-    width:14px;
-    height:14px;
-    padding:9px;
-}
-
 ::-webkit-scrollbar {
     width:.3em;
 }
