@@ -5,14 +5,6 @@
     background:#cccccc; /* scrollbar color */
 }
 
-/* tooltips */
-
-#s-m-t-tooltip {
-    background-color:#ffffff;
-    border:1px solid #eee;
-    color:#666;
-}
-
 /* body */
 
 body {
@@ -134,18 +126,6 @@ label.tab {
 ::-webkit-scrollbar-thumb {
     overflow:visible;
     border-radius:4px;
-}
-
-#s-m-t-tooltip {
-    max-width:300px;
-    z-index:100;
-    margin:0 14px 0 12px;
-    padding:5px 10px 5px 10px;
-    border-radius:.9em;
-    font-size:12px;
-    text-transform:lowercase;
-    letter-spacing:1px;
-    line-height:16px;
 }
 
 body {
